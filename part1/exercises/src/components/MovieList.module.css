@@ -2,8 +2,13 @@
    color: rgb(72, 12, 144);
    text-align: left;
    font-size: 1.5vw;
+   background-color: aqua;
 }
 
 .movieHeading {
    text-align: left;
+}
+
+.movieList {
+   border-style: dashed;
 }
