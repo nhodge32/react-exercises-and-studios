@@ -1,11 +1,11 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.kimscravings.com/sweet-potato-black-bean-casserole/";
+   let authorPhoto = "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg";
+   let authorName = "Kim";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "sweet potato black bean casserole" style={{objectFit: "contain", borderRadius: "50%"}} />
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
@@ -15,7 +15,12 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["uncooked macaroni",
+   "butter",
+   "flour",
+   "heavy cream",
+   "milk"];
+
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -31,6 +36,8 @@ const RecipeIngredients = () => {
 }
 
 const RecipeDescription = () => {
+   let name = "Stovetop Mac and Cheese";
+   let description = "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!";
    return (
       <div> 
          <div>
@@ -46,8 +53,11 @@ const RecipeDescription = () => {
 }
 
 const RecipePhoto = () => {
+
+   let recipeImage = "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg";
+
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src={recipeImage} alt="sweet potato black bean casserole" className="imageUpdates"/>
    );
 }
 
