@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Purple Queen",
+        "sunlightHours": "6+",
+        "imageURL": "https://mygardenlife.com/wp-content/uploads/2022/12/2838_16-2.jpg",
+        "averageHeight": "8 to 10 inches"
+    },
+    {
+        "name": "Basil",
+        "sunlightHours": "6+",
+        "imageURL": "https://t4.ftcdn.net/jpg/00/82/75/51/360_F_82755187_ispxPOCGLG43ovhhliOxCThaZlkec1zA.jpg",
+        "averageHeight": "18 to 24 inches"
+    },
+    {
+        "name": "Oregano",
+        "sunlightHours": "6+",
+        "imageURL": "https://thegrowers-exchange.com/cdn/shop/products/Oregano_Italian_800x.jpg?v=1575466741",
+        "averageHeight": "12 to 24 inches"
+    },
+    {
+        "name": "Impatiens",
+        "sunlightHours": "2-4",
+        "imageURL": "https://www.gardenia.net/storage/app/public/uploads/images/detail/Infinity%20Pink%20Optimized.webp",
+        "averageHeight": "8 to 15 inches"
+    },
+    {
+        "name": "Silver Crest",
+        "sunlightHours": "6+",
+        "imageURL": "https://m.media-amazon.com/images/I/71Q26nGBmkL._AC_UF894,1000_QL80_.jpg",
+        "averageHeight": "about 10 inches"
+    }
+]
